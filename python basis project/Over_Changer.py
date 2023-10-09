@@ -46,9 +46,9 @@ class Over_Changer:
 
         print(f"Your {runing_meter} is on with {meter_ON} Unit")
 
-
-Oc = Over_Changer(5540, 440, 5000, 400)
-
-Oc.Meter_1_Total_reading = 56666
-Oc.Meter_2_Total_reading = 89888
-Oc.Check_reading()
+if __name__ == "__main__" :
+    Oc = Over_Changer(5540, 440, 5000, 400)
+    
+    Oc.Meter_1_Total_reading = 56666
+    Oc.Meter_2_Total_reading = 89888
+    Oc.Check_reading()
